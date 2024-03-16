@@ -7,17 +7,19 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f1f1f1;
             margin: 0;
             padding: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-image: url('tnpolice.jpg');
+            background-size: cover; /* Adjusts the background image size */
+            background-position: center; /* Centers the background image */
         }
         .login-container {
             width: 400px;
-            background: #fff;
+            background: rgba(255, 255, 255, 0.8); /* Added some transparency to the background */
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -49,8 +51,6 @@
     </style>
 </head>
 <body>
-
-
     <div class="login-container">
         <h2>Login</h2>
         <form action="/login" method="post">
